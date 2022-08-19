@@ -16,9 +16,10 @@
 
 import config
 import nobby
-import IPython
+import numpy
+#import IPython
 
-ipshell = IPython.embed
+#ipshell = IPython.embed
 config.ph_format = '|{0}-{1:d}|'
 config.tag_format = '{}'
 

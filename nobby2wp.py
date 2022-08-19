@@ -29,7 +29,7 @@ import os
 import re
 import sys
 import hashlib
-import IPython
+#import IPython
 import argparse
 import tempfile
 import subprocess
@@ -41,7 +41,7 @@ import wordpress_xmlrpc.methods as wpmethods
 Entry = collections.namedtuple('Entry', 'host type ID')
 
 # Convenience.
-ipshell = IPython.embed
+#ipshell = IPython.embed
 
 
 def updateImageTags(html, wp_path_img):

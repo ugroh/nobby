@@ -32,7 +32,7 @@ import time
 import shutil
 import config
 import plugins
-import IPython
+#import IPython
 import argparse
 import webbrowser
 import subprocess
@@ -42,7 +42,7 @@ import multiprocessing
 import PIL.Image as Image
 
 
-ipshell = IPython.embed
+#ipshell = IPython.embed
 
 # Meta information about delimiters in LaTeX code (eg. '$' or \begin).
 Delim = collections.namedtuple('Delim', 'span isOpen type name')

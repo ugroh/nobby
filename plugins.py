@@ -16,9 +16,9 @@
 
 import re
 import config
-import IPython
+#import IPython
 
-ipshell = IPython.embed
+#ipshell = IPython.embed
 
 # -----------------------------------------------------------------------------
 # Plugins are normal function that take one argument. That argument is always
