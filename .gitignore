@@ -4,3 +4,4 @@
 /doc/source/tmp/
 /demo/html-demo/
 /doc/source/extensions/__pycache__/
+.DS_Store
